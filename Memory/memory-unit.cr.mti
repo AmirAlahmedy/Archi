@@ -1,0 +1,37 @@
+C:/Users/Ameer/Desktop/ALU/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Ameer/Desktop/ALU/memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture memory_unit of memory
+
+} {} {}} C:/Users/Ameer/Desktop/ALU/DataRam.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Ameer/Desktop/ALU/DataRam.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity data_ram
+-- Compiling architecture syncrama of data_ram
+
+} {} {}} C:/Users/Ameer/Desktop/ALU/StackRam.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Ameer/Desktop/ALU/StackRam.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity stack
+-- Compiling architecture Behavioral of stack
+
+} {} {}} C:/Users/Ameer/Desktop/ALU/FetchRam.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Ameer/Desktop/ALU/FetchRam.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fetch_ram
+-- Compiling architecture syncrama of fetch_ram
+
+} {} {}}
