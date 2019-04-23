@@ -1,0 +1,54 @@
+{E:/College/Junior 2/Comp Archi/Project/Add.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Junior 2\Comp Archi\Project\Add.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity add
+-- Compiling architecture hhh of add
+
+} {} {}} {E:/College/Junior 2/Comp Archi/Project/ShiftL.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Junior 2\Comp Archi\Project\ShiftL.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity shiftl
+-- Compiling architecture ggg of shiftl
+
+} {} {}} {E:/College/Junior 2/Comp Archi/Project/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Junior 2\Comp Archi\Project\ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture aluu of Alu
+
+} {} {}} {E:/College/Junior 2/Comp Archi/archi-labs/archi-labs/archi-5/counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity newCounter
+-- Compiling architecture new_counter of newCounter
+
+} {} {}} {E:/College/Junior 2/Comp Archi/Project/ShiftR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {E:\College\Junior 2\Comp Archi\Project\ShiftR.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity shiftr
+-- Compiling architecture ggg of shiftr
+
+} {} {}}
