@@ -1,0 +1,31 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile C:/Users/amr_h/Documents/GitHub/Archi/ALU.vhd
+# Loading project ArchiPro
+# Compile of DataRam.vhd was successful.
+# Compile of FetchRam.vhd was successful.
+# Compile of memory.vhd was successful.
+# Compile of StackRam.vhd was successful.
+# Compile of Add.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of Decoder.vhd was successful.
+# Compile of ShiftL.vhd was successful.
+# Compile of ShiftR.vhd was successful.
+# Compile of Sub.vhd was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of ControlUnit.vhd failed with 1 errors.
+# Compile of ControlUnit.vhd was successful.
+# Compile of ControlUnit.vhd failed with 1 errors.
+# Compile of ControlUnit.vhd failed with 1 errors.
+# Compile of ControlUnit.vhd was successful.
+# Compile of ControlUnit.vhd failed with 1 errors.
+# Compile of ControlUnit.vhd was successful.
+# Compile of ControlUnit.vhd was successful.
+# Compile of ControlUnit.vhd failed with 3 errors.
+# Compile of ControlUnit.vhd failed with 3 errors.
+# Compile of ControlUnit.vhd failed with 2 errors.
+# Compile of ControlUnit.vhd failed with 2 errors.
+# Compile of ControlUnit.vhd failed with 2 errors.
+# Compile of ControlUnit.vhd failed with 2 errors.
+# Compile of ControlUnit.vhd failed with 2 errors.
+# Compile of ControlUnit.vhd failed with 1 errors.
+# Compile of ControlUnit.vhd was successful.

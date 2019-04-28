@@ -9,26 +9,26 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/18.1
 Eadd
-Z0 w1555880850
+Z0 w1556409343
 Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z6 dE:/College/Junior 2/Comp Archi/Project
-Z7 8E:\College\Junior 2\Comp Archi\Project\Add.vhd
-Z8 FE:\College\Junior 2\Comp Archi\Project\Add.vhd
+Z6 dC:/Users/amr_h/Documents/GitHub/Archi
+Z7 8C:/Users/amr_h/Documents/GitHub/Archi/Add.vhd
+Z8 FC:/Users/amr_h/Documents/GitHub/Archi/Add.vhd
 l0
 L7
 V5nA`HP`o19Z<R;8T@k]PS3
 !s100 bOFMj<GBAR3RHF:[V7jB32
 Z9 OV;C;10.5b;63
 32
-Z10 !s110 1555896978
+Z10 !s110 1556472100
 !i10b 1
-Z11 !s108 1555896978.000000
-Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\Project\Add.vhd|
-Z13 !s107 E:\College\Junior 2\Comp Archi\Project\Add.vhd|
+Z11 !s108 1556472100.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Add.vhd|
+Z13 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Add.vhd|
 !i113 1
 Z14 o-work work -2002 -explicit
 Z15 tExplicit 1 CvgOpt 0
@@ -53,27 +53,49 @@ R13
 !i113 1
 R14
 R15
+vAddRoundKey
+!s110 1556466045
+!i10b 1
+!s100 ^W6kOZ`8WQ=fZE9jdi`]`1
+Igm`>dla2Q>h8A]SB8nIYh3
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+R6
+w1556465413
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/AddRoundKey.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/AddRoundKey.v
+L0 3
+Z17 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1556466045.000000
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/AddRoundKey.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/AddRoundKey.v|
+!i113 1
+Z18 o-work work
+Z19 tCvgOpt 0
+n@add@round@key
 Ealu
-Z16 w1555892611
+R0
 R1
 R2
 R3
 R4
 R5
 R6
-Z17 8E:\College\Junior 2\Comp Archi\Project\ALU.vhd
-Z18 FE:\College\Junior 2\Comp Archi\Project\ALU.vhd
+Z20 8C:/Users/amr_h/Documents/GitHub/Archi/ALU.vhd
+Z21 FC:/Users/amr_h/Documents/GitHub/Archi/ALU.vhd
 l0
 L6
 VmJ]kiMXl9L9b?h:K<d35o1
 !s100 zn^Z6cS:hTFJmB=z0Vn3c0
 R9
 32
-Z19 !s110 1555896979
+R10
 !i10b 1
-Z20 !s108 1555896979.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\Project\ALU.vhd|
-Z22 !s107 E:\College\Junior 2\Comp Archi\Project\ALU.vhd|
+R11
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ALU.vhd|
+Z23 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ALU.vhd|
 !i113 1
 R14
 R15
@@ -90,33 +112,78 @@ VHd2bK]TbGeTiGgQ4odDzR1
 !s100 R[[^iYEahc0[cNGO03Y@D0
 R9
 32
-R19
+R10
 !i10b 1
-R20
-R21
+R11
 R22
+R23
 !i113 1
 R14
 R15
-Edecoder
-Z23 w1555931477
+Econrtolunit
+Z24 w1556472096
+R1
+R2
 R3
 R4
 R5
 R6
-Z24 8E:\College\Junior 2\Comp Archi\Project\Decoder.vhd
-Z25 FE:\College\Junior 2\Comp Archi\Project\Decoder.vhd
+Z25 8C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd
+Z26 FC:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd
 l0
-L5
-VU19e9>3BN[9i_f[O[I=AN0
-!s100 <Rbbe>GK197NOS<>]b]<P3
+L6
+VY6_T7fY=APcN5SI1`om_53
+!s100 UFHaK^4JVjUTT7f2CZAj52
 R9
 32
-Z26 !s110 1555931490
+R10
 !i10b 1
-Z27 !s108 1555931490.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\Project\Decoder.vhd|
-Z29 !s107 E:\College\Junior 2\Comp Archi\Project\Decoder.vhd|
+R11
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd|
+Z28 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd|
+!i113 1
+R14
+R15
+Acu
+R1
+R2
+R3
+R4
+R5
+DEx4 work 11 conrtolunit 0 22 Y6_T7fY=APcN5SI1`om_53
+l37
+L35
+V4d8Q3XSgAM6>NZR4?M4Fz1
+!s100 _AV;bN8MlzZM9V6@=AiTC0
+R9
+32
+R10
+!i10b 1
+R11
+R27
+R28
+!i113 1
+R14
+R15
+Edata_ram
+R0
+R3
+R4
+R5
+R6
+Z29 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd
+Z30 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd
+l0
+L5
+Ve^E`hz=Jk;z7:H9OS@:]b0
+!s100 BillXRN@53o>nD7NgNU_?0
+R9
+32
+Z31 !s110 1556472101
+!i10b 1
+Z32 !s108 1556472101.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd|
+Z34 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd|
 !i113 1
 R14
 R15
@@ -124,40 +191,250 @@ Asyncrama
 R3
 R4
 R5
-Z30 DEx4 work 7 decoder 0 22 U19e9>3BN[9i_f[O[I=AN0
+DEx4 work 8 data_ram 0 22 e^E`hz=Jk;z7:H9OS@:]b0
+l20
+L15
+Vi;N1KnV[]kGeA@kFUenBG2
+!s100 Cda`B[KXHBWTSNC@^N[3e2
+R9
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R14
+R15
+Edecoder
+R0
+R3
+R4
+R5
+R6
+Z35 8C:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd
+Z36 FC:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd
+l0
+L5
+VU19e9>3BN[9i_f[O[I=AN0
+!s100 <Rbbe>GK197NOS<>]b]<P3
+R9
+32
+R31
+!i10b 1
+R11
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd|
+Z38 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd|
+!i113 1
+R14
+R15
+Asyncrama
+R3
+R4
+R5
+DEx4 work 7 decoder 0 22 U19e9>3BN[9i_f[O[I=AN0
 l22
 L17
 V?eGjn>dlRY9el_]l?gm=D2
 !s100 oGA8E_A88^iMf@QYW=bHT1
 R9
 32
-R26
+R31
 !i10b 1
-R27
-R28
-R29
+R11
+R37
+R38
 !i113 1
 R14
 R15
-Enewcounter
-Z31 w1554380756
+vEncryptor
+Z39 !s110 1556458268
+!i10b 1
+!s100 >8BEVEJHAoFLDU_UW^3E;0
+Id]o_>9VLeO0RF3<N]DCZ22
+R16
+R6
+w1556407180
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/Encryptor.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/Encryptor.v
+L0 1
+R17
+r1
+!s85 0
+31
+Z40 !s108 1556458268.000000
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/Encryptor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/Encryptor.v|
+!i113 1
+R18
+R19
+n@encryptor
+Efetch_ram
+R0
 R3
 R4
 R5
 R6
-Z32 8E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
-Z33 FE:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
+Z41 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd
+Z42 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd
+l0
+L5
+VCl9GWNVR`Rj=?kM0T@8[Z1
+!s100 2A>S:aj6KB?8EPob`P@Zg3
+R9
+32
+R31
+!i10b 1
+R32
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd|
+Z44 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd|
+!i113 1
+R14
+R15
+Asyncrama
+R3
+R4
+R5
+DEx4 work 9 fetch_ram 0 22 Cl9GWNVR`Rj=?kM0T@8[Z1
+l30
+L23
+Vf7cgL5:e@UfSFCn;C=`PB1
+!s100 @O8]JIL2Cn1FKY^Be:b]P3
+R9
+32
+R31
+!i10b 1
+R32
+R43
+R44
+!i113 1
+R14
+R15
+vinvsbox
+R39
+!i10b 1
+!s100 5HPaBi6]9:<1zQDJW632e0
+IG3kgzg]77g:nJ?ZEM5I1k0
+R16
+R6
+Z45 w1556380358
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v
+L0 3
+R17
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v|
+!i113 1
+R18
+R19
+vInvShiftRows
+!s110 1556466384
+!i10b 1
+!s100 XW[MgP]7o0c5QF09T;zPL2
+IZk<X<na=Saho5FX;;nnF50
+R16
+R6
+w1556466381
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/InvShiftRows.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/InvShiftRows.v
+L0 3
+R17
+r1
+!s85 0
+31
+!s108 1556466384.000000
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/InvShiftRows.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/InvShiftRows.v|
+!i113 1
+R18
+R19
+n@inv@shift@rows
+vInvSubBytes
+R39
+!i10b 1
+!s100 XFEnVnoYUb@?=5blXV64M2
+Ihj<M]:BYj?fAB]LO?kS111
+R16
+R6
+R45
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v
+L0 4
+R17
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v|
+!i113 1
+R18
+R19
+n@inv@sub@bytes
+Ememory
+R0
+R3
+R4
+R5
+R6
+Z46 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
+Z47 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
+l0
+L5
+VL@V9_Q3UBE:SODe9z8UP<1
+!s100 G60iM;UKc@QW@[aiEf_:<2
+R9
+32
+Z48 !s110 1556472102
+!i10b 1
+R32
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd|
+Z50 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd|
+!i113 1
+R14
+R15
+Amemory_unit
+R3
+R4
+R5
+DEx4 work 6 memory 0 22 L@V9_Q3UBE:SODe9z8UP<1
+l69
+L24
+VCTV@1?4hJlJfFVjgn3jW90
+!s100 Ccb801z?cDafESUfh]Q?[2
+R9
+32
+R48
+!i10b 1
+R32
+R49
+R50
+!i113 1
+R14
+R15
+Enewcounter
+Z51 w1554380756
+R3
+R4
+R5
+Z52 dE:/College/Junior 2/Comp Archi/Project
+Z53 8E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
+Z54 FE:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
 l0
 L5
 VNgA``aGLFV43JhMC`bJ=21
 !s100 ;cim@7gWQgJYi4S9OQhfj1
 R9
 32
-R10
+Z55 !s110 1555896978
 !i10b 1
-R11
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
-Z35 !s107 E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
+Z56 !s108 1555896978.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
+Z58 !s107 E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
 !i113 1
 R14
 R15
@@ -172,35 +449,56 @@ VIO5_ma_9[QjH]4d6U>E@T1
 !s100 `1K8<WLUg037gVKbAJZ^F1
 R9
 32
-R10
+R55
 !i10b 1
-R11
-R34
-R35
+R56
+R57
+R58
 !i113 1
 R14
 R15
+vsbox
+R39
+!i10b 1
+!s100 ?mbRGE^Z9cfZDFA?A@Rn=0
+I?[8I31a7;XUQRMi2>BaCD2
+R16
+R6
+Z59 w1556380259
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v
+L0 3
+R17
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v|
+!i113 1
+R18
+R19
 Eshiftl
-Z36 w1555888349
+R0
 R1
 R2
 R3
 R4
 R5
 R6
-Z37 8E:\College\Junior 2\Comp Archi\Project\ShiftL.vhd
-Z38 FE:\College\Junior 2\Comp Archi\Project\ShiftL.vhd
+Z60 8C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd
+Z61 FC:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd
 l0
 L7
 VQTRGAzLR@dGoYZPOMjGFz1
 !s100 K>C?7i2CbR<2XIUWQAW5G3
 R9
 32
-R19
+R31
 !i10b 1
-R20
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\Project\ShiftL.vhd|
-Z40 !s107 E:\College\Junior 2\Comp Archi\Project\ShiftL.vhd|
+R32
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd|
+Z63 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd|
 !i113 1
 R14
 R15
@@ -217,35 +515,35 @@ VM=ESak7kg<Mo]P9^LW@O43
 !s100 7ZZOZg4aaN2JY=6kF5c1?3
 R9
 32
-R19
+R31
 !i10b 1
-R20
-R39
-R40
+R32
+R62
+R63
 !i113 1
 R14
 R15
 Eshiftr
-Z41 w1555888346
+R0
 R1
 R2
 R3
 R4
 R5
 R6
-Z42 8E:\College\Junior 2\Comp Archi\Project\ShiftR.vhd
-Z43 FE:\College\Junior 2\Comp Archi\Project\ShiftR.vhd
+Z64 8C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd
+Z65 FC:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd
 l0
 L6
 V[?mz<SQB:=0S^AHj]^QFd0
 !s100 COLS]bCc@iEPnZ;R1Llfd1
 R9
 32
-R19
+R31
 !i10b 1
-R20
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\Project\ShiftR.vhd|
-Z45 !s107 E:\College\Junior 2\Comp Archi\Project\ShiftR.vhd|
+R32
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd|
+Z67 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd|
 !i113 1
 R14
 R15
@@ -262,35 +560,98 @@ Vaze7N=1aaX`Zl13ca28C90
 !s100 kk[b1RegBOcGdQ8zAj=Td0
 R9
 32
-R19
+R31
 !i10b 1
-R20
-R44
-R45
+R32
+R66
+R67
+!i113 1
+R14
+R15
+vShiftRows
+!s110 1556465973
+!i10b 1
+!s100 iY>_3I3<XdIn:S`55_HJf0
+IRD_<5=ZiL6Kcm:GS8g7cJ1
+R16
+R6
+w1556465956
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/ShiftRows.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/ShiftRows.v
+L0 3
+R17
+r1
+!s85 0
+31
+!s108 1556465973.000000
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/ShiftRows.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/ShiftRows.v|
+!i113 1
+R18
+R19
+n@shift@rows
+Estack
+R0
+R3
+R4
+R5
+R6
+Z68 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd
+Z69 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd
+l0
+L6
+VC6YR0<m6ZaaH9gzn@>CMX2
+!s100 B=39Rg6PfS=?h6BL1mH^g0
+R9
+32
+R48
+!i10b 1
+Z70 !s108 1556472102.000000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd|
+Z72 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R3
+R4
+R5
+Z73 DEx4 work 5 stack 0 22 C6YR0<m6ZaaH9gzn@>CMX2
+l26
+L18
+Z74 VXEaP;BVT;dGB8]SZo66m>1
+Z75 !s100 1jfzizHb6B?j6d:>kJ_:g1
+R9
+32
+R48
+!i10b 1
+R70
+R71
+R72
 !i113 1
 R14
 R15
 Esub
-Z46 w1555896967
+R0
 R1
 R2
 R3
 R4
 R5
 R6
-Z47 8E:\College\Junior 2\Comp Archi\Project\Sub.vhd
-Z48 FE:\College\Junior 2\Comp Archi\Project\Sub.vhd
+Z76 8C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd
+Z77 FC:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd
 l0
 L8
 VHM`lFcWfS?`glI]ZBXQdz2
 !s100 E4L4A2NFLXBf9L]6dMk=51
 R9
 32
-R19
+R31
 !i10b 1
-R11
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\Project\Sub.vhd|
-Z50 !s107 E:\College\Junior 2\Comp Archi\Project\Sub.vhd|
+R32
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd|
+Z79 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd|
 !i113 1
 R14
 R15
@@ -307,11 +668,33 @@ Vel`N9RGYlUEFB_f=oMDDJ0
 !s100 ^cJ;lMXmg8aBinF6Zmehm2
 R9
 32
-R19
+R31
 !i10b 1
-R11
-R49
-R50
+R32
+R78
+R79
 !i113 1
 R14
 R15
+vSubBytes
+R39
+!i10b 1
+!s100 DXR5>o]R5iUPcaQBPzHIh0
+IRhof[HiVW;hMS4IVMODYQ0
+R16
+R6
+R59
+8C:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v
+FC:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v
+L0 3
+R17
+r1
+!s85 0
+31
+R40
+!s107 C:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v|
+!i113 1
+R18
+R19
+n@sub@bytes

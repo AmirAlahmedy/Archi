@@ -1,0 +1,50 @@
+C:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v {1 {vlog -work work -stats=none C:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module invsbox
+
+Top level modules:
+	invsbox
+
+} {} {}} C:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v {1 {vlog -work work -stats=none C:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SubBytes
+
+Top level modules:
+	SubBytes
+
+} {} {}} C:/Users/amr_h/Documents/GitHub/Logic-Project/Encryptor.v {1 {vlog -work work -stats=none C:/Users/amr_h/Documents/GitHub/Logic-Project/Encryptor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Encryptor
+
+Top level modules:
+	Encryptor
+
+} {} {}} C:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v {1 {vlog -work work -stats=none C:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module InvSubBytes
+
+Top level modules:
+	InvSubBytes
+
+} {} {}} C:/Users/amr_h/Documents/GitHub/Logic-Project/AddRoundKey.v {1 {vlog -work work -stats=none C:/Users/amr_h/Documents/GitHub/Logic-Project/AddRoundKey.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AddRoundKey
+
+Top level modules:
+	AddRoundKey
+
+} {} {}} C:/Users/amr_h/Documents/GitHub/Logic-Project/InvShiftRows.v {1 {vlog -work work -stats=none C:/Users/amr_h/Documents/GitHub/Logic-Project/InvShiftRows.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module InvShiftRows
+
+Top level modules:
+	InvShiftRows
+
+} {} {}} C:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v {1 {vlog -work work -stats=none C:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sbox
+
+Top level modules:
+	sbox
+
+} {} {}}
