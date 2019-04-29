@@ -7,8 +7,6 @@ GENERIC (n : integer := 20; m: integer:=16);
 	PORT(
 		clk : IN std_logic;
 		address : IN  std_logic_vector(31 DOWNTO 0);
-		
-
 		--Outputs of the IF memory
 		OP : OUT std_logic_vector(4 DOWNTO 0);
 		Rdst : OUT std_logic_vector(2 DOWNTO 0);

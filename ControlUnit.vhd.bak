@@ -28,7 +28,8 @@ JC:out std_logic;
 JMP:out std_logic;
 RESTOREFLAG:out std_logic;
 ATYPE:out std_logic;
-RTYPE:out std_logic
+RTYPE:out std_logic;
+RegWrite:out std_logic
 );
 end ConrtolUnit;
 
@@ -37,6 +38,7 @@ architecture CU of ConrtolUnit is
 begin 
 process(clk)
 begin
+if (falling_edge(clk)) then
 CALL<='0';
 RTI<='0';
 RET<='0';
@@ -57,6 +59,7 @@ JMP<='0';
 RESTOREFLAG<='0';
 ATYPE<='0';
 RTYPE<='0';
+RegWrite<='0';
 
 if(optype="00")then
 
@@ -78,8 +81,12 @@ elsif(func="010")then
 LDM<='1';
 elsif(func="011")then
 LDD<='1';
-elsif(func="101")then
+elsif(func="100")then
 STORE<='1';
+elsif(func="101")then
+INT<='1';
+elsif(func="110")then
+CARRY<='1';
 else
 PUSH<='0';
 POP<='0';
@@ -90,7 +97,14 @@ end if;
 
 elsif(optype="10")then
 
+if(func="000" or func="001" or func="010") then 
 ATYPE<='1';
+Rtype<='1';
+elsif(func="011")then
+INPUT<='1';
+elsif(func="100")then
+OUTPUT<='1';
+end if;
 
 elsif(optype="11")then
 
@@ -106,28 +120,13 @@ elsif(func="100")then
 CALL<='1';
 elsif(func="101")then
 RET<='1';
-elsif(func="101")then
+elsif(func="110")then
 RTI<='1';
-else
-JZ<='0';
-JN<='0';
-JC<='0';
-JMP<='0';
-CALL<='0';
-RET<='0';
-RTI<='0';
+elsif(func="111")then
+RESTOREFLAG<='1';
 end if;
 
-
-INPUT<='1';
-OUTPUT<='1';
-RESTOREFLAG<='1';
-
-
-
-INT<='1';
-CARRY<='1';
-
+end if;
 
 
 
