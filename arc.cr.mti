@@ -1,12 +1,4 @@
-C:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity DecALUREG
--- Compiling architecture a_FetDecReg of DecALUREG
-
-} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd
+C:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/Decoder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -37,23 +29,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity ConrtolUnit
 -- Compiling architecture CU of ConrtolUnit
 
-} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity FetDecReg
--- Compiling architecture a_FetDecReg of FetDecReg
-
-} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity fetch_ram
--- Compiling architecture syncrama of fetch_ram
-
 } {} {}} C:/Users/amr_h/Documents/GitHub/Archi/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/ALU.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -64,6 +39,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package STD_LOGIC_UNSIGNED
 -- Compiling entity ALU
 -- Compiling architecture aluu of Alu
+
+} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fetch_ram
+-- Compiling architecture syncrama of fetch_ram
 
 } {} {}} C:/intelFPGA_lite/18.0/Reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/18.0/Reg.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -113,13 +97,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity stack
 -- Compiling architecture Behavioral of stack
 
-} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/ALUMEMREG.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/ALUMEMREG.vhd
+} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ALUMEMREG
--- Compiling architecture a_FetDecReg of ALUMEMREG
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture memory_unit of memory
 
 } {} {}} C:/Users/amr_h/Documents/GitHub/Archi/Add.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/Add.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -132,14 +117,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity add
 -- Compiling architecture hhh of add
 
-} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
+} {} {}} C:/Users/amr_h/Documents/GitHub/Archi/WriteDataMuxInDecode.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/WriteDataMuxInDecode.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity memory
--- Compiling architecture memory_unit of memory
+-- Compiling entity WriteDataMuxInDecode
+-- Compiling architecture AA of WriteDataMuxInDecode
 
 } {} {}} C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

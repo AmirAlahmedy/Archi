@@ -21,7 +21,7 @@ regwriteout:out std_logic
 regwriteout<='0';
    Rdstaddressout<= (others=>'0');
   RdstDataout<= (others=>'0');
-      elsif rising_edge(clk) then
+      elsif FALLING_edge(clk) then
 regwriteout<=Regwrite;
    Rdstaddressout<=RdstaDDRESS ;
   RdstDataout<= Rdstdatain ;

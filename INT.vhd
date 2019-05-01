@@ -12,6 +12,7 @@ PC : in std_logic_vector (31 downto 0 );
 Clk : in std_logic ;
 ResetDecAlu:in std_logic;
 resetALUMEM:IN STD_LOGIC;
+resetMEMWB: std_logic;
 resetPC: in std_logic); 
 end INT;
 
@@ -163,6 +164,27 @@ AddAmount : in Std_logic_vector (1 downto 0);
 PCOut : out std_logic_vector (31 downto 0)
 );
   end Component;
+
+Component MEMWBREG is
+
+  Port(clk,rst: in std_logic; 
+higher2bytes: in std_logic_vector(15 downto 0);
+lower2bytes: in std_logic_vector(15 downto 0);
+ReadDataIn :in std_logic_vector(15 downto 0);
+MULT2signal: in std_logic;
+ImmValue: in std_logic_vector(15 downto 0);
+WriteAddIn: in std_logic_vector(2 downto 0);
+
+WriteAddOut: out std_logic_vector(2 downto 0);
+REGwriteSignalIn :in std_logic;
+REGwriteSignalOut :out std_logic;
+ImmValueOut:out std_logic_vector(15 downto 0);
+higher2bytesOut:out std_logic_vector(15 downto 0);
+lower2bytesOut:out std_logic_vector(15 downto 0);
+ReadDataOut:out std_logic_vector(15 downto 0);
+MULT2signalout:out std_logic
+);
+  end Component;
   
 signal RdstFet,RsrcFet : std_logic_vector (2 downto 0);
 signal ShamtFet : std_logic_vector ( 4 downto 0 ) ;
@@ -220,19 +242,20 @@ SIGNAL regWrite_alu_mem:std_logic; -- register write signal sent to memeory but 
 signal writeback_alu_mem:std_logic_vector(15 downto 0);
 signal RdstAddress_dec_alu:std_logic_vector(2 downto 0);
 signal rdstAdress_alu_mem:std_logic_vector(2 downto 0); -- final address sent to decode from alu mem register
-
-
-
+signal ImmValueIn,ImmValueOut,Higher2bytesOut,Lower2bytesOut,ReadDataOut :std_logic_vector(15 downto 0);
+SIGNAL Mult2SigLast:std_logic;
+SIGNAL rdstAddress_mem_wb:STD_LOGIC_VECTOR (2 DOWNTO 0) ;--- RDST ADD ROM LAST REGISTER
+SIGNAL regWrite_mem_wb:STD_LOGIC;---WRITE BACK SIGNAL FROM LAST REGISTER
 begin 
 PC_count:my_reg port map (Clk,resetPC,PCout,newPC);
 FETCH: fetch_ram port map(clk, PC, OP_Func_FetchRam, RdstFet, RsrcFet, ShamtFet, EAFet, ImmFet);
 RegFetDec: FetDecReg port map(clk, ResetFetDec, RdstFet, RsrcFet,RegFetDecRdOut,RegFetDecRsOut,atype,RTYPE,REGWRITE,Atype_Decoder,Aluop_Decoder,ShamtFet,shamt_fet_dec,Regwrite_decoder,op_func_fetchram(2 downto 0),func_fet_dec);
 REGDECALU: DecALUREG port map(clk,ResetDecALU,DecAluRdst,DecAluRsrc,RSRC_ALu,RDest_ALu,Atype_Decoder,Aluop_Decoder,Regwrite_decoder,Atype_DEC_ALU,ALuop_DEC_ALU,RegWrite_DEC_ALU,RdstAddress_dec_alu,RegFetDecRdOut,shamt_fet_dec,shamt_dec_alu,func_fet_dec,func_dec_alu);
-ALU1:ALU PORT MAP(RSRC_ALu,RDest_ALu,shamt_dec_alu,ALuop_DEC_ALU,clk,Atype_DEC_ALU,func_dec_alu,writeback_alu,upperbyte,carryflag,zero,negative);
-Decode: decoder port map(clk, RegFetDecRsOut, RegFetDecRdOut,rdstAdress_alu_mem ,regWrite_alu_mem,writeback_alu,DecAluRsrc,DecAluRdst );
+ALU1:ALU PORT MAP(RSRC_ALu,RDest_ALu,"00000",ALuop_DEC_ALU,clk,Atype_DEC_ALU,func_dec_alu,writeback_alu_mem,upperbyte,carryflag,zero,negative);
+Decode: decoder port map(clk, RegFetDecRsOut, RegFetDecRdOut,rdstAddress_mem_wb ,regWrite_mem_wb,Lower2bytesOut,DecAluRsrc,DecAluRdst );
 PCAdder:Pc_Adder port map (resetPC,Clk,PCout,"01",newPC);
 ContUnit:ConrtolUnit port map (Clk,OP_Func_FetchRam(4 downto 3),OP_Func_FetchRam(2 downto 0),CALL,RTI,RET,INT,CARRY,PUSH,POP,STORE,LDM,LDD,MULT,INPUT,OUTPUT,JN,JZ,JC,JMP,RESTOREFLAG,ATYPE,RTYPE,RegWrite);
 REGALUMEM: ALUMEMREG port map(clk,resetALUMEM,RdstAddress_dec_alu,rdstAdress_alu_mem,writeback_alu_mem,writeback_alu,RegWrite_DEC_ALU,regWrite_alu_mem);
-
+REGMEMWB : MEMWBREG port map(clk,resetMEMWB,UPPERBYTE,writeback_alu,"0000000000000000",'0',ImmValueIn,rdstAdress_alu_mem,rdstAddress_mem_wb,regWrite_alu_mem,regWrite_mem_wb,ImmValueOut,Higher2bytesOut,Lower2bytesOut,ReadDataOut,Mult2SigLast);
 
 END ARCHITECTURE;

@@ -24,9 +24,9 @@ V5nA`HP`o19Z<R;8T@k]PS3
 !s100 bOFMj<GBAR3RHF:[V7jB32
 Z9 OV;C;10.5b;63
 32
-Z10 !s110 1556578335
+Z10 !s110 1556728227
 !i10b 1
-Z11 !s108 1556578335.000000
+Z11 !s108 1556728227.000000
 Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Add.vhd|
 Z13 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Add.vhd|
 !i113 1
@@ -76,7 +76,7 @@ Z18 o-work work
 Z19 tCvgOpt 0
 n@add@round@key
 Ealu
-Z20 w1556572827
+Z20 w1556725495
 R1
 R2
 R3
@@ -108,8 +108,8 @@ R5
 DEx4 work 3 alu 0 22 Y84o=QMFGUhg^n=F5mAo<2
 l82
 L24
-Va6T9lC=2C:lH4CnYZk3Z@1
-!s100 En0^z]JB4BRbEl];Pz[UP1
+VJ<=m05a[00eEYU6C6eZbf2
+!s100 Mk4TSXzN;BYlM26=F>zYR0
 R9
 32
 R10
@@ -121,7 +121,7 @@ R24
 R14
 R15
 Ealumemreg
-Z25 w1556578236
+Z25 w1556728212
 R4
 R5
 R6
@@ -133,9 +133,9 @@ V9<F4WDVd3T>bUEZobTYOM2
 !s100 FCKPjT4MUkPA^kT9oLYTC1
 R9
 32
-Z28 !s110 1556578337
+Z28 !s110 1556728230
 !i10b 1
-Z29 !s108 1556578337.000000
+Z29 !s108 1556728230.000000
 Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ALUMEMREG.vhd|
 Z31 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ALUMEMREG.vhd|
 !i113 1
@@ -144,11 +144,11 @@ R15
 Aa_fetdecreg
 R4
 R5
-Z32 DEx4 work 9 alumemreg 0 22 9<F4WDVd3T>bUEZobTYOM2
+DEx4 work 9 alumemreg 0 22 9<F4WDVd3T>bUEZobTYOM2
 l17
 L16
-Z33 VNa``5;UP@NPkhJnWenJ2`0
-Z34 !s100 >m18`^BIXHD[KSHe`^JOh0
+VQRJVbd<:jggGA[m2U_3mo3
+!s100 @lif>c]5gWk@be:f8A;W00
 R9
 32
 R28
@@ -160,15 +160,15 @@ R31
 R14
 R15
 Econrtolunit
-Z35 w1556573813
+Z32 w1556573813
 R1
 R2
 R3
 R4
 R5
 R6
-Z36 8C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd
-Z37 FC:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd
+Z33 8C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd
+Z34 FC:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd
 l0
 L6
 VO=iMIT_ceff_5W^JL7oaa2
@@ -178,8 +178,8 @@ R9
 R10
 !i10b 1
 R11
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd|
-Z39 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd|
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd|
+Z36 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ControlUnit.vhd|
 !i113 1
 R14
 R15
@@ -199,8 +199,8 @@ R9
 R10
 !i10b 1
 R11
-R38
-R39
+R35
+R36
 !i113 1
 R14
 R15
@@ -210,19 +210,19 @@ R3
 R4
 R5
 R6
-Z40 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd
-Z41 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd
+Z37 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd
+Z38 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd
 l0
 L5
 Ve^E`hz=Jk;z7:H9OS@:]b0
 !s100 BillXRN@53o>nD7NgNU_?0
 R9
 32
-R10
+Z39 !s110 1556728228
 !i10b 1
-R11
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd|
-Z43 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd|
+Z40 !s108 1556728228.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd|
+Z42 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/DataRam.vhd|
 !i113 1
 R14
 R15
@@ -237,21 +237,21 @@ Vi;N1KnV[]kGeA@kFUenBG2
 !s100 Cda`B[KXHBWTSNC@^N[3e2
 R9
 32
-R10
+R39
 !i10b 1
-R11
+R40
+R41
 R42
-R43
 !i113 1
 R14
 R15
 Edecalureg
-Z44 w1556570876
+Z43 w1556728135
 R4
 R5
 R6
-Z45 8C:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd
-Z46 FC:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd
+Z44 8C:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd
+Z45 FC:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd
 l0
 L4
 Vz2oDP:b[B7aXJY[haJ3FF0
@@ -260,7 +260,7 @@ R9
 32
 R28
 !i10b 1
-R29
+Z46 !s108 1556728229.000000
 Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd|
 Z48 !s107 C:/Users/amr_h/Documents/GitHub/Archi/DecAluReg.vhd|
 !i113 1
@@ -272,13 +272,13 @@ R5
 DEx4 work 9 decalureg 0 22 z2oDP:b[B7aXJY[haJ3FF0
 l28
 L27
-VgNaB@Dj3AoXg6`jkN0n^O0
-!s100 gzD_WXncWB^DWJ?d07^TP0
+V;4CjG?X_^H[=k73flcdGb3
+!s100 E<:;7[RcFoDb2`7<_J[5c1
 R9
 32
 R28
 !i10b 1
-R29
+R46
 R47
 R48
 !i113 1
@@ -361,11 +361,11 @@ V:>YgZP3om0kWzlk390ccD2
 !s100 [X?AY6Rb2Cf1jXI10i[zJ2
 R9
 32
-Z58 !s110 1556578336
+R39
 !i10b 1
-Z59 !s108 1556578336.000000
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd|
-Z61 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd|
+R40
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd|
+Z59 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/FetchRam.vhd|
 !i113 1
 R14
 R15
@@ -380,32 +380,32 @@ VV]I85N<LN^aUZa<ELn^za1
 !s100 M];zik2oD`H?WV_f0PlFX3
 R9
 32
-R58
+R39
 !i10b 1
+R40
+R58
 R59
-R60
-R61
 !i113 1
 R14
 R15
 Efetdecreg
-Z62 w1556572224
+Z60 w1556728184
 R4
 R5
 R6
-Z63 8C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd
-Z64 FC:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd
+Z61 8C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd
+Z62 FC:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd
 l0
 L3
 VSR;XVXh[HfP23j>JT^gW^2
 !s100 c7Hb_NNSg9GjE?a:@HAe`2
 R9
 32
-R58
+Z63 !s110 1556728229
 !i10b 1
-R59
-Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd|
-Z66 !s107 C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd|
+R46
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd|
+Z65 !s107 C:/Users/amr_h/Documents/GitHub/Archi/FetDecReg.vhd|
 !i113 1
 R14
 R15
@@ -415,39 +415,39 @@ R5
 DEx4 work 9 fetdecreg 0 22 SR;XVXh[HfP23j>JT^gW^2
 l24
 L23
-VJBAeSJ`?lF>GmZCIQLWH=2
-!s100 43[Cg4GWzC4UVBB7JgdTk1
+VBK<d>X]8oHUem[nJ6Ya1n1
+!s100 j>7zUZW8<F1`=acd:WKaE0
 R9
 32
-R58
+R63
 !i10b 1
-R59
+R46
+R64
 R65
-R66
 !i113 1
 R14
 R15
 Eint
-Z67 w1556578007
+Z66 w1556725965
 R1
 R2
 R3
 R4
 R5
 R6
-Z68 8C:/Users/amr_h/Documents/GitHub/Archi/INT.vhd
-Z69 FC:/Users/amr_h/Documents/GitHub/Archi/INT.vhd
+Z67 8C:/Users/amr_h/Documents/GitHub/Archi/INT.vhd
+Z68 FC:/Users/amr_h/Documents/GitHub/Archi/INT.vhd
 l0
 L7
-ViSeEzmFHb<6TgP3I2zLR;2
-!s100 ZBYEn?74V3OOVbKaj6aAR3
+Vh]J0]dP`FGYBkdfPfH5m<2
+!s100 NYk27A>ndB2ZfeDeF89P`1
 R9
 32
-R58
+R63
 !i10b 1
-R59
-Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/INT.vhd|
-Z71 !s107 C:/Users/amr_h/Documents/GitHub/Archi/INT.vhd|
+R46
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/INT.vhd|
+Z70 !s107 C:/Users/amr_h/Documents/GitHub/Archi/INT.vhd|
 !i113 1
 R14
 R15
@@ -457,18 +457,18 @@ R2
 R3
 R4
 R5
-DEx4 work 3 int 0 22 iSeEzmFHb<6TgP3I2zLR;2
-l226
-L18
-V4fJ5fGfNUgIaEcM`84Wi;2
-!s100 O5]n1MQ^N><^;=b=X^;Vh2
+DEx4 work 3 int 0 22 h]J0]dP`FGYBkdfPfH5m<2
+l249
+L19
+VbA]7]VO:ZND_Oe:RAJE@21
+!s100 42C]9^n;DPmah5Yddg1ZN2
 R9
 32
-R58
+R63
 !i10b 1
-R59
+R46
+R69
 R70
-R71
 !i113 1
 R14
 R15
@@ -479,7 +479,7 @@ R53
 IG3kgzg]77g:nJ?ZEM5I1k0
 R16
 R6
-Z72 w1556380358
+Z71 w1556380358
 8C:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v
 FC:/Users/amr_h/Documents/GitHub/Logic-Project/invsbox.v
 L0 3
@@ -522,7 +522,7 @@ R53
 Ihj<M]:BYj?fAB]LO?kS111
 R16
 R6
-R72
+R71
 8C:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v
 FC:/Users/amr_h/Documents/GitHub/Logic-Project/InvSubBytes.v
 L0 4
@@ -543,19 +543,19 @@ R3
 R4
 R5
 R6
-Z73 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
-Z74 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
+Z72 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
+Z73 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd
 l0
 L5
 VL@V9_Q3UBE:SODe9z8UP<1
 !s100 G60iM;UKc@QW@[aiEf_:<2
 R9
 32
-R58
+R39
 !i10b 1
-R59
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd|
-Z76 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd|
+R40
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd|
+Z75 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/memory.vhd|
 !i113 1
 R14
 R15
@@ -570,32 +570,71 @@ VCTV@1?4hJlJfFVjgn3jW90
 !s100 Ccb801z?cDafESUfh]Q?[2
 R9
 32
-R58
+R39
 !i10b 1
-R59
+R40
+R74
 R75
-R76
+!i113 1
+R14
+R15
+Ememwbreg
+Z76 w1556728209
+R4
+R5
+R6
+Z77 8C:/Users/amr_h/Documents/GitHub/Archi/MEMWBREG.vhd
+Z78 FC:/Users/amr_h/Documents/GitHub/Archi/MEMWBREG.vhd
+l0
+L3
+VZWo^[LR[kJ4[[;kheIXRH2
+!s100 z7z`Kjo8n5`Y2W`AjMFMB2
+R9
+32
+R28
+!i10b 1
+R29
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/MEMWBREG.vhd|
+Z80 !s107 C:/Users/amr_h/Documents/GitHub/Archi/MEMWBREG.vhd|
+!i113 1
+R14
+R15
+Aa_memwbreg
+R4
+R5
+Z81 DEx4 work 8 memwbreg 0 22 ZWo^[LR[kJ4[[;kheIXRH2
+l25
+L24
+VhNdRzI3PaoM:EDATjDzOg0
+!s100 ATm?]h[dO[n4E?HBD:^2V2
+R9
+32
+R28
+!i10b 1
+R29
+R79
+R80
 !i113 1
 R14
 R15
 Emy_reg
-Z77 w1556555876
+Z82 w1556555876
 R4
 R5
 R6
-Z78 8C:/intelFPGA_lite/18.0/Reg.vhd
-Z79 FC:/intelFPGA_lite/18.0/Reg.vhd
+Z83 8C:/intelFPGA_lite/18.0/Reg.vhd
+Z84 FC:/intelFPGA_lite/18.0/Reg.vhd
 l0
 L3
 VDKjW5id_Z_IczAnbaf@:C2
 !s100 <X[3ABHCV`icb`]D7<SKM3
 R9
 32
-R58
+R63
 !i10b 1
-R59
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/18.0/Reg.vhd|
-Z81 !s107 C:/intelFPGA_lite/18.0/Reg.vhd|
+R46
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA_lite/18.0/Reg.vhd|
+Z86 !s107 C:/intelFPGA_lite/18.0/Reg.vhd|
 !i113 1
 R14
 R15
@@ -609,33 +648,33 @@ VFAUZjA9VE2c=nKmU>M>=M0
 !s100 OFOmXiBoZPLZ=Z`HW=XK71
 R9
 32
-R58
+R63
 !i10b 1
-R59
-R80
-R81
+R46
+R85
+R86
 !i113 1
 R14
 R15
 Enewcounter
-Z82 w1554380756
+Z87 w1554380756
 R3
 R4
 R5
-Z83 dE:/College/Junior 2/Comp Archi/Project
-Z84 8E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
-Z85 FE:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
+Z88 dE:/College/Junior 2/Comp Archi/Project
+Z89 8E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
+Z90 FE:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd
 l0
 L5
 VNgA``aGLFV43JhMC`bJ=21
 !s100 ;cim@7gWQgJYi4S9OQhfj1
 R9
 32
-Z86 !s110 1555896978
+Z91 !s110 1555896978
 !i10b 1
-Z87 !s108 1555896978.000000
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
-Z89 !s107 E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
+Z92 !s108 1555896978.000000
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
+Z94 !s107 E:\College\Junior 2\Comp Archi\archi-labs\archi-labs\archi-5\counter.vhd|
 !i113 1
 R14
 R15
@@ -650,35 +689,35 @@ VIO5_ma_9[QjH]4d6U>E@T1
 !s100 `1K8<WLUg037gVKbAJZ^F1
 R9
 32
-R86
+R91
 !i10b 1
-R87
-R88
-R89
+R92
+R93
+R94
 !i113 1
 R14
 R15
 Epc_adder
-Z90 w1556563101
+Z95 w1556563101
 R1
 R2
 R3
 R4
 R5
 R6
-Z91 8C:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd
-Z92 FC:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd
+Z96 8C:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd
+Z97 FC:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd
 l0
 L6
 VafBl4>e9QeG@L@GC?aWKH2
 !s100 <EfPcoe5m1V=EWL@@jh<_3
 R9
 32
-R28
+R63
 !i10b 1
-R29
-Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd|
-Z94 !s107 C:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd|
+R46
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd|
+Z99 !s107 C:/Users/amr_h/Documents/GitHub/Archi/PCadder.vhd|
 !i113 1
 R14
 R15
@@ -695,11 +734,11 @@ VPC6k1lOecz:D<5DK^LJ7J3
 !s100 m@]?@=bUBOdh``fY?LOOE1
 R9
 32
-R28
+R63
 !i10b 1
-R29
-R93
-R94
+R46
+R98
+R99
 !i113 1
 R14
 R15
@@ -710,7 +749,7 @@ R53
 I?[8I31a7;XUQRMi2>BaCD2
 R16
 R6
-Z95 w1556380259
+Z100 w1556380259
 8C:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v
 FC:/Users/amr_h/Documents/GitHub/Logic-Project/sbox.v
 L0 3
@@ -725,26 +764,26 @@ R54
 R18
 R19
 Eshiftl
-Z96 w1556551494
+Z101 w1556551494
 R1
 R2
 R3
 R4
 R5
 R6
-Z97 8C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd
-Z98 FC:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd
+Z102 8C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd
+Z103 FC:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd
 l0
 L7
 VFZjBeWQh8iZEOLCF?HiaU3
 !s100 2dSGe2j[TZkg_6<j35H[`1
 R9
 32
-R10
+R39
 !i10b 1
 R11
-Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd|
-Z100 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd|
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd|
+Z105 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ShiftL.vhd|
 !i113 1
 R14
 R15
@@ -761,35 +800,35 @@ VM=ESak7kg<Mo]P9^LW@O43
 !s100 7ZZOZg4aaN2JY=6kF5c1?3
 R9
 32
-R10
+R39
 !i10b 1
 R11
-R99
-R100
+R104
+R105
 !i113 1
 R14
 R15
 Eshiftr
-Z101 w1556551496
+Z106 w1556551496
 R1
 R2
 R3
 R4
 R5
 R6
-Z102 8C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd
-Z103 FC:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd
+Z107 8C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd
+Z108 FC:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd
 l0
 L6
 VY9HaIof2XXje5RedibI[N1
 !s100 ed2J?gjb;bNO@g?SKVg@h1
 R9
 32
-R10
+R39
 !i10b 1
-R11
-Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd|
-Z105 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd|
+R40
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd|
+Z110 !s107 C:/Users/amr_h/Documents/GitHub/Archi/ShiftR.vhd|
 !i113 1
 R14
 R15
@@ -806,11 +845,11 @@ Vaze7N=1aaX`Zl13ca28C90
 !s100 kk[b1RegBOcGdQ8zAj=Td0
 R9
 32
-R10
+R39
 !i10b 1
-R11
-R104
-R105
+R40
+R109
+R110
 !i113 1
 R14
 R15
@@ -842,19 +881,19 @@ R3
 R4
 R5
 R6
-Z106 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd
-Z107 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd
+Z111 8C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd
+Z112 FC:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd
 l0
 L6
 VC6YR0<m6ZaaH9gzn@>CMX2
 !s100 B=39Rg6PfS=?h6BL1mH^g0
 R9
 32
-R58
+R63
 !i10b 1
-R59
-Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd|
-Z109 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd|
+R46
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd|
+Z114 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Memory/StackRam.vhd|
 !i113 1
 R14
 R15
@@ -869,11 +908,11 @@ VXEaP;BVT;dGB8]SZo66m>1
 !s100 1jfzizHb6B?j6d:>kJ_:g1
 R9
 32
-R58
+R63
 !i10b 1
-R59
-R108
-R109
+R46
+R113
+R114
 !i113 1
 R14
 R15
@@ -885,19 +924,19 @@ R3
 R4
 R5
 R6
-Z110 8C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd
-Z111 FC:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd
+Z115 8C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd
+Z116 FC:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd
 l0
 L8
 VHM`lFcWfS?`glI]ZBXQdz2
 !s100 E4L4A2NFLXBf9L]6dMk=51
 R9
 32
-R10
+R39
 !i10b 1
-R11
-Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd|
-Z113 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd|
+R40
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd|
+Z118 !s107 C:/Users/amr_h/Documents/GitHub/Archi/Sub.vhd|
 !i113 1
 R14
 R15
@@ -914,11 +953,11 @@ Vel`N9RGYlUEFB_f=oMDDJ0
 !s100 ^cJ;lMXmg8aBinF6Zmehm2
 R9
 32
-R10
+R39
 !i10b 1
-R11
-R112
-R113
+R40
+R117
+R118
 !i113 1
 R14
 R15
@@ -929,7 +968,7 @@ R53
 IRhof[HiVW;hMS4IVMODYQ0
 R16
 R6
-R95
+R100
 8C:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v
 FC:/Users/amr_h/Documents/GitHub/Logic-Project/SubBytes.v
 L0 3
@@ -944,3 +983,44 @@ R54
 R18
 R19
 n@sub@bytes
+Ewritedatamuxindecode
+Z119 w1556717712
+R3
+R4
+R5
+R6
+Z120 8C:/Users/amr_h/Documents/GitHub/Archi/WriteDataMuxInDecode.vhd
+Z121 FC:/Users/amr_h/Documents/GitHub/Archi/WriteDataMuxInDecode.vhd
+l0
+L5
+VKcKoHUjl2MVn0A1d_Qb>U3
+!s100 `mBh]?QP2RWedBELA0:<P2
+R9
+32
+R28
+!i10b 1
+R29
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/amr_h/Documents/GitHub/Archi/WriteDataMuxInDecode.vhd|
+Z123 !s107 C:/Users/amr_h/Documents/GitHub/Archi/WriteDataMuxInDecode.vhd|
+!i113 1
+R14
+R15
+Aaa
+R3
+R4
+R5
+DEx4 work 20 writedatamuxindecode 0 22 KcKoHUjl2MVn0A1d_Qb>U3
+l19
+L18
+VaBY_j[NR;<giMIU>EM]1M0
+!s100 [N`mj[[Kd>C82_FEZ1dM21
+R9
+32
+R28
+!i10b 1
+R29
+R122
+R123
+!i113 1
+R14
+R15

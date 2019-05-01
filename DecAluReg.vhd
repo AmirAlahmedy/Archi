@@ -37,7 +37,7 @@ RegWriteout<='0';
 RdstAddress<="000";
       Rdstout<= (others=>'0');
  Rsrcout<= (others=>'0');
-      elsif rising_edge(clk) then
+      elsif FALLING_edge(clk) then
 shamtout<=shamtin;
 Atypeout<=Atype;
 Aluopout<=Aluop;

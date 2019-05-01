@@ -15,7 +15,12 @@ Atypeout:out std_logic;
 Aluopout:out std_logic;
 RegWriteout:out std_logic;
 RdstAddress : out std_logic_vector (2 downto 0);
-RdstAddressIn : in std_logic_vector (2 downto 0)
+RdstAddressIn : in std_logic_vector (2 downto 0);
+shamtin:in std_logic_vector(4 downto 0);
+shamtout:out std_logic_vector(4 downto 0);
+Funcin:in std_logic_vector(2 downto 0);
+funcout:out std_logic_vector(2 downto 0)
+
 );
   end DecALUREG;
   
@@ -24,20 +29,23 @@ RdstAddressIn : in std_logic_vector (2 downto 0)
     process(clk)
       begin
         if(rst='1') then
+funcout<="000";
+shamtout<="00000";
 Atypeout<='0';
 Aluopout<='0';
 RegWriteout<='0';
-RdstAddress<=
-"000";
+RdstAddress<="000";
       Rdstout<= (others=>'0');
  Rsrcout<= (others=>'0');
-      elsif rising_edge(clk) then
+      elsif RISING_edge(clk) then
+shamtout<=shamtin;
 Atypeout<=Atype;
 Aluopout<=Aluop;
 RegWriteout<=rEGwRITE;
     Rdstout<= Rdst;
 RdstAddress<=RdstAddressIn;
  Rsrcout<= Rsrc;
+funcout<=funcin;
       end if;
     end process;
-     end ARCHITECTURE;
+   end ARCHITECTURE;

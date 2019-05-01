@@ -84,8 +84,8 @@ add1:add generic map(n) port map(input1,input2,output_add1,carry_add1);
 sub1:sub generic map(n) port map(input1,input2,output_sub1,carry_sub1);
 sub2:sub generic map(n) port map(input2,std_logic_vector(to_unsigned(1, n)),output_sub2,carry_sub2);
 add2:add generic map (n) port map (input2,std_logic_vector(to_unsigned(1, n)),output_add2,carry_add2);
-shl:shiftl generic map(n) port map(input2,shamt,output_shl,carry_shl);
-shr:shiftr generic map(n) port map(input2,shamt,output_shr,carry_shr);
+--shl:shiftl generic map(n) port map(input2,shamt,output_shl,carry_shl);
+--shr:shiftR generic map(n) port map(input2,shamt,output_shr,carry_shr);
 
  
 process(enable,clk)

@@ -14,7 +14,9 @@ Atypeout:out std_logic;
 Aluopout:out std_logic;
 SHAMTiN:IN STD_LOGIC_VECTOR(4 DOWNTO 0);
 SHAMTOUT:OUT STD_LOGIC_VECTOR(4 DOWNTO 0);
-RegWriteout:out std_logic
+RegWriteout:out std_logic;
+Funcin:in std_logic_vector(2 downto 0);
+funcout:out std_logic_vector(2 downto 0)
 );
   end FetDecReg;
   
@@ -23,13 +25,15 @@ RegWriteout:out std_logic
     process(clk)
       begin
         if(rst='1') then
+funcout<="000";
 SHAMTOUT<="00000";
 Atypeout<='0';
 Aluopout<='0';
 RegWriteout<='0';
       Rdstout<= (others=>'0');
  Rsrcout<= (others=>'0');
-      elsif rising_edge(clk) then
+      elsif RISING_edge(clk) then
+funcout<=funcin;
 SHAMTOUT<=shamtin;
 Atypeout<=Atype;
 Aluopout<=Aluop;
