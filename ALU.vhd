@@ -9,7 +9,8 @@ entity ALU is
       input1:in std_logic_vector(n-1 downto 0); --Rsrc
       input2:in std_logic_vector(n-1 downto 0); --Rdest
       shamt:in std_logic_vector(3 downto 0);
-      enable: in std_logic;
+      atype: in std_logic;
+      rtype: in std_logic;
       clk: in std_logic;
       sel : in std_logic_vector(3 downto 0);
       output:out std_logic_vector(n-1 downto 0); -- fl multiplication bta3 Rdst
@@ -60,6 +61,8 @@ component sub is
 );
 end component;
 
+signal enable:std_logic;
+
 signal mul: std_logic_vector(n+n-1 downto 0);
 signal output1:std_logic_Vector(n-1 downto 0);
 signal output_add1:std_logic_vector(n-1 downto 0);
@@ -79,6 +82,7 @@ signal output_and:std_logic_vector(n-1 downto 0);
 signal output_not:std_logic_vector(n-1 downto 0);
 signal output_or:std_logic_vector(n-1 downto 0);
 begin 
+enable<= atype or rtype;
 add1:add generic map(n) port map(input1,input2,output_add1,carry_add1);
 sub1:sub generic map(n) port map(input1,input2,output_sub1,carry_sub1);
 sub2:sub generic map(n) port map(input2,std_logic_vector(to_unsigned(1, n)),output_sub2,carry_sub2);
@@ -192,6 +196,8 @@ end if;
 negative<=output_not(n-1);
 end if;
 end if;
+
+
 
 
 end process;
