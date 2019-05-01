@@ -3,7 +3,7 @@ USE IEEE.std_logic_1164.all;
 Entity pc_reg is
   generic ( n: integer:=32);
   Port(clk,rst: in std_logic; q :out std_logic_vector(n-1 downto 0); d:in std_logic_vector(n-1 downto 0));
-  end my_reg;
+  end pc_reg;
   
   architecture a_my_reg of pc_reg is 
   begin
