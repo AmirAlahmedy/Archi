@@ -163,6 +163,18 @@ AddAmount : in Std_logic_vector (1 downto 0);
 PCOut : out std_logic_vector (31 downto 0)
 );
   end Component;
+Component pcmux is
+port(
+	branch: in std_logic;
+	reset: in std_logic;
+	retORrti: in std_logic;
+	callsig: in std_logic;
+	RofRdest: in std_logic_vector(15 downto 0); -- address coming from decode to branch
+	Xofsp: in std_logic_vector(15 downto 0);
+	PC_Plus_One: in std_logic_vector(31 downto 0);
+	To_PC: out std_logic_vector(31 downto 0));
+	
+end Component;
   
 signal RdstFet,RsrcFet : std_logic_vector (2 downto 0);
 signal ShamtFet : std_logic_vector ( 4 downto 0 ) ;
@@ -224,10 +236,13 @@ signal rdstAdress_alu_mem:std_logic_vector(2 downto 0); -- final address sent to
 -- 1.5.19
 --signals controlling the pc mux
 signal Branch: std_logic;
-signal Call: std_logic;
-signal Reset: std_logic;
-signal Ret: std_logic;
-signal Rti: std_logic;
+signal Callsign: std_logic;
+signal Resetsign: std_logic;
+signal Retsign: std_logic;
+signal Rtisign: std_logic;
+signal retORrti: std_logic;
+signal PCtoFetch: std_logic_vector(31 downto 0);
+signal STACKtoPCMUX: std_logic_vector(15 downto 0);
 
 begin 
 PC_count:my_reg port map (Clk,resetPC,PCout,newPC);
@@ -235,13 +250,13 @@ FETCH: fetch_ram port map(clk, PC, OP_Func_FetchRam, RdstFet, RsrcFet, ShamtFet,
 RegFetDec: FetDecReg port map(clk, ResetFetDec, RdstFet, RsrcFet,RegFetDecRdOut,RegFetDecRsOut,atype,RTYPE,REGWRITE,Atype_Decoder,Aluop_Decoder,ShamtFet,shamt_fet_dec,Regwrite_decoder,op_func_fetchram(2 downto 0),func_fet_dec);
 REGDECALU: DecALUREG port map(clk,ResetDecALU,DecAluRdst,DecAluRsrc,RSRC_ALu,RDest_ALu,Atype_Decoder,Aluop_Decoder,Regwrite_decoder,Atype_DEC_ALU,ALuop_DEC_ALU,RegWrite_DEC_ALU,RdstAddress_dec_alu,RegFetDecRdOut,shamt_fet_dec,shamt_dec_alu,func_fet_dec,func_dec_alu);
 ALU1:ALU PORT MAP(RSRC_ALu,RDest_ALu,shamt_dec_alu,ALuop_DEC_ALU,clk,Atype_DEC_ALU,func_dec_alu,writeback_alu,upperbyte,carryflag,zero,negative);
-Decode: decoder port map(clk, RegFetDecRsOut, RegFetDecRdOut,rdstAdress_alu_mem ,regWrite_alu_mem,writeback_alu,DecAluRsrc,DecAluRdst );
+Decode: decoder port map(clk, RegFetDecRsOut, RegFetDecRdOut,rdstAdress_alu_mem ,regWrite_alu_mem,writeback_alu,DecAluRsrc,DecAluRdst);
 PCAdder:Pc_Adder port map (resetPC,Clk,PCout,"01",newPC);
 ContUnit:ConrtolUnit port map (Clk,OP_Func_FetchRam(4 downto 3),OP_Func_FetchRam(2 downto 0),CALL,RTI,RET,INT,CARRY,PUSH,POP,STORE,LDM,LDD,MULT,INPUT,OUTPUT,JN,JZ,JC,JMP,RESTOREFLAG,ATYPE,RTYPE,RegWrite);
 REGALUMEM: ALUMEMREG port map(clk,resetALUMEM,RdstAddress_dec_alu,rdstAdress_alu_mem,writeback_alu_mem,writeback_alu,RegWrite_DEC_ALU,regWrite_alu_mem);
 
 -- 1.5.19
-PCout <= DecAluRdst when Branch = '1';
+retORrti <= Retsign or Rtisign;
+PC_MUX: pcmux port map(Branch, Resetsign, retORrti, Callsign, DecAluRdst, STACKtoPCMUX, PC, PCtoFetch);
 
-
-END ARCHITECTURE;
+end architecture;
