@@ -221,7 +221,13 @@ signal writeback_alu_mem:std_logic_vector(15 downto 0);
 signal RdstAddress_dec_alu:std_logic_vector(2 downto 0);
 signal rdstAdress_alu_mem:std_logic_vector(2 downto 0); -- final address sent to decode from alu mem register
 
-
+-- 1.5.19
+--signals controlling the pc mux
+signal Branch: std_logic;
+signal Call: std_logic;
+signal Reset: std_logic;
+signal Ret: std_logic;
+signal Rti: std_logic;
 
 begin 
 PC_count:my_reg port map (Clk,resetPC,PCout,newPC);
@@ -233,6 +239,9 @@ Decode: decoder port map(clk, RegFetDecRsOut, RegFetDecRdOut,rdstAdress_alu_mem 
 PCAdder:Pc_Adder port map (resetPC,Clk,PCout,"01",newPC);
 ContUnit:ConrtolUnit port map (Clk,OP_Func_FetchRam(4 downto 3),OP_Func_FetchRam(2 downto 0),CALL,RTI,RET,INT,CARRY,PUSH,POP,STORE,LDM,LDD,MULT,INPUT,OUTPUT,JN,JZ,JC,JMP,RESTOREFLAG,ATYPE,RTYPE,RegWrite);
 REGALUMEM: ALUMEMREG port map(clk,resetALUMEM,RdstAddress_dec_alu,rdstAdress_alu_mem,writeback_alu_mem,writeback_alu,RegWrite_DEC_ALU,regWrite_alu_mem);
+
+-- 1.5.19
+PCout <= DecAluRdst when Branch = '1';
 
 
 END ARCHITECTURE;

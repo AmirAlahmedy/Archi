@@ -61,6 +61,8 @@ component sub is
 );
 end component;
 
+signal enable:std_logic;
+
 signal mul: std_logic_vector(n+n-1 downto 0);
 signal output1:std_logic_Vector(n-1 downto 0);
 signal output_add1:std_logic_vector(n-1 downto 0);
@@ -80,6 +82,7 @@ signal output_and:std_logic_vector(n-1 downto 0);
 signal output_not:std_logic_vector(n-1 downto 0);
 signal output_or:std_logic_vector(n-1 downto 0);
 begin 
+enable<= atype or rtype;
 add1:add generic map(n) port map(input1,input2,output_add1,carry_add1);
 sub1:sub generic map(n) port map(input1,input2,output_sub1,carry_sub1);
 sub2:sub generic map(n) port map(input2,std_logic_vector(to_unsigned(1, n)),output_sub2,carry_sub2);
@@ -105,11 +108,7 @@ else
 zero<='0';
 end if;
 negative<=output_add1(n-1);
-<<<<<<< HEAD
-elsif(sel="0010") then  --multiplication
-=======
 elsif(sel="010") then  --multiplication
->>>>>>> 1aa4ed3a39c07fcec6cb7f07f6d70c732d36817d
 mul <= std_logic_vector(unsigned(input1) * unsigned(input2));
 output<=mul(15 downto 0);
 upperbyte<=mul(31 downto 16);
@@ -184,7 +183,7 @@ zero<='1';
 else 
 zero<='0';
 end if;
-negative<=output_add2(n-1);
+negative<=output_add2(n-1); 
 elsif (sel="010" and Atype='1') then 
 output_not<= not(input2);
 output<=output_not;
@@ -197,6 +196,8 @@ end if;
 negative<=output_not(n-1);
 end if;
 end if;
+
+
 
 
 end process;
