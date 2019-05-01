@@ -1,0 +1,27 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+entity pcmux is
+port(
+	branch: in std_logic;
+	reset: in std_logic;
+	retORrti: in std_logic;
+	callsig: in std_logic;
+	RofRdest: in std_logic_vector(15 downto 0); -- address coming from decode to branch
+	Xofsp: in std_logic_vector(15 downto 0);
+	PC_Plus_One: in std_logic_vector(31 downto 0);
+	To_PC: out std_logic_vector(31 downto 0));
+	
+end entity;
+
+architecture muxpc of pcmux is
+signal zeros: std_logic_vector(15 downto 0);
+begin
+zeros<= (others=>'0');
+	To_PC <= PC_Plus_One when ( branch = '0' and reset = '0' and retORrti = '0' and  callsig = '0') else
+		 RofRdest&zeros when branch = '1' else
+		 Xofsp&zeros when retORrti = '1' or callsig = '1'; 	
+	
+end architecture;
