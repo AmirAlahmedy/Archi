@@ -6,9 +6,7 @@ ENTITY fetch_ram IS
 GENERIC (n : integer := 20; m: integer:=16);
 	PORT(
 		clk : IN std_logic;
-		address : IN  std_logic_vector(31 DOWNTO 0);
-		
-
+		address : IN  std_logic_vector(31 DOWNTO 0);writeback_alu
 		--Outputs of the IF memory
 		OP : OUT std_logic_vector(4 DOWNTO 0);
 		Rdst : OUT std_logic_vector(2 DOWNTO 0);
@@ -25,11 +23,11 @@ ARCHITECTURE syncrama OF fetch_ram IS
 	TYPE ram_type IS ARRAY(0 TO 30) OF std_logic_vector(m-1 DOWNTO 0);
 	SIGNAL ram : ram_type ;
 	SIGNAL dataout : std_logic_vector(31 DOWNTO 0);
-
+	alias upper: std_logic_vector(15 DOWNTO 0) is dataout(31 DOWNTO 16);
+	alias lower: std_logic_vector(15 DOWNTO 0) is dataout(15 DOWNTO 0);
 	BEGIN
 
-		alias upper: std_logic_vector(15 DOWNTO 0) is dataout(31 DOWNTO 16);
-		alias lower: std_logic_vector(15 DOWNTO 0) is dataout(15 DOWNTO 0);
+		
 		upper <= ram(to_integer(unsigned(address)));
 		lower <= ram(to_integer(unsigned(address))+1);
 		OP <= dataout(31 DOWNTO 27);
