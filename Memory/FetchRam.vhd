@@ -22,7 +22,7 @@ END ENTITY fetch_ram;
 
 ARCHITECTURE syncrama OF fetch_ram IS
 
-	TYPE ram_type IS ARRAY(0 TO 30) OF std_logic_vector(m-1 DOWNTO 0);
+	TYPE ram_type IS ARRAY(0 TO 65535) OF std_logic_vector(m-1 DOWNTO 0);
 	SIGNAL ram : ram_type ;
 	SIGNAL dataout : std_logic_vector(31 DOWNTO 0);
 	alias upper: std_logic_vector(15 DOWNTO 0) is dataout(31 DOWNTO 16);
