@@ -105,7 +105,11 @@ else
 zero<='0';
 end if;
 negative<=output_add1(n-1);
+<<<<<<< HEAD
+elsif(sel="0010") then  --multiplication
+=======
 elsif(sel="010") then  --multiplication
+>>>>>>> 1aa4ed3a39c07fcec6cb7f07f6d70c732d36817d
 mul <= std_logic_vector(unsigned(input1) * unsigned(input2));
 output<=mul(15 downto 0);
 upperbyte<=mul(31 downto 16);
