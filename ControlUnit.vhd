@@ -28,7 +28,8 @@ JC:out std_logic;
 JMP:out std_logic;
 RESTOREFLAG:out std_logic;
 ATYPE:out std_logic;
-RTYPE:out std_logic
+RTYPE:out std_logic;
+RegWrite:out std_logic
 );
 end ConrtolUnit;
 
@@ -37,6 +38,7 @@ architecture CU of ConrtolUnit is
 begin 
 process(clk)
 begin
+if (falling_edge(clk)) then
 CALL<='0';
 RTI<='0';
 RET<='0';
@@ -57,10 +59,12 @@ JMP<='0';
 RESTOREFLAG<='0';
 ATYPE<='0';
 RTYPE<='0';
+RegWrite<='0';
 
 if(optype="00")then
 
 RTYPE<='1';
+regWrite<='1';
 
 if(func="000")then
 MULT<='1';
@@ -94,11 +98,13 @@ end if;
 
 elsif(optype="10")then
 
+if(func="000" or func="001" or func="010") then 
 ATYPE<='1';
-
-if(func="000")then
+Rtype<='1';
+regWrite<='1';
+elsif(func="011")then
 INPUT<='1';
-elsif(func="001")then
+elsif(func="100")then
 OUTPUT<='1';
 end if;
 
@@ -122,7 +128,7 @@ elsif(func="111")then
 RESTOREFLAG<='1';
 end if;
 
-
+end if;
 
 
 

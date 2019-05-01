@@ -7,7 +7,7 @@ entity shiftr is
   generic(n:integer:=16);
 	port (
       input1:in std_logic_vector(n-1 downto 0);
-        shamt: in std_logic_vector(3 downto 0);
+        shamt: in std_logic_vector(4 downto 0);
       output:out std_logic_vector(n-1 downto 0);
       carry: out std_logic
 
